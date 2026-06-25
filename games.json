@@ -28,5 +28,12 @@
         "name": "gn-math unblocked",
         "image": "assets/gn-math.png",
         "url": "https://s-p-e-c-k.github.io/Gn-Math/"
-    }
+    },
+    {
+    "id": "hollowknightsilksong",
+    "name": "Hollow Knight Silksong",
+    "image": "assets/hollowknightsilksong.png",
+    "url": "games/Hollow Knight_ Silksong.html"
+}
+
 ]
