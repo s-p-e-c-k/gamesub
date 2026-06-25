@@ -10,5 +10,11 @@
         "name": "Dogeminer",
         "image": "assets/dogeminer.png",
         "url": "https://s-p-e-c-k.github.io/DogeMiner/"
+    },
+    {
+        "id": "dogeminertwo",
+        "name": "Dogeminer 2",
+        "image": "assets/dogeminer2.png",
+        "url": "https://s-p-e-c-k.github.io/Dogeminer-2/"
     }
 ]
