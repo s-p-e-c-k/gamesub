@@ -16,5 +16,11 @@
         "name": "Dogeminer 2",
         "image": "assets/dogeminer2.png",
         "url": "https://s-p-e-c-k.github.io/Dogeminer-2/"
+    },
+    {
+        "id": "m-nimum",
+        "name": "m-nimum proxy",
+        "image": "assets/m-nimum.png",
+        "url": "https://s-p-e-c-k.github.io/m-nimum/"
     }
 ]
