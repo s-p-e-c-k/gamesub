@@ -8,7 +8,7 @@ body {
 
 /* Header */
 header {
-    padding: 20px;
+    padding: 25px 0;
     text-align: center;
     background: #222;
     font-size: 32px;
@@ -19,7 +19,7 @@ header {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
+    gap: 30px;
     padding: 30px;
     max-width: 1200px;
     margin: 0 auto; /* centers the grid */
@@ -33,24 +33,24 @@ header {
     cursor: pointer;
     transition: transform 0.2s, background 0.2s;
     text-align: center;
-    aspect-ratio: 1 / 1; /* makes the whole card square */
+
+    /* force the card to be square */
+    aspect-ratio: 1 / 1;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* Game Images */
 .card img {
     width: 100%;
-    aspect-ratio: 1 / 1; /* keeps image square */
-    object-fit: cover;
+    aspect-ratio: 1 / 1; /* perfect square */
+    object-fit: cover;   /* no stretching */
     border-radius: 10px;
 }
 
-.card:hover {
-    transform: scale(1.05);
-    background: #272727;
-}
-
+/* Game Title */
 .card h2 {
     margin-top: 12px;
     font-size: 20px;
