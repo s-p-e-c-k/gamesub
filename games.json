@@ -4,5 +4,11 @@
         "name": "Retro Bowl",
         "image": "assets/retrobowl.png",
         "url": "https://s-p-e-c-k.github.io/retro-bowl/"
+    },
+    {
+        "id": "dogeminer",
+        "name": "Dogeminer",
+        "image": "assets/dogeminer.png",
+        "url": "https://s-p-e-c-k.github.io/DogeMiner/"
     }
 ]
