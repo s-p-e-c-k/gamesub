@@ -22,5 +22,11 @@
         "name": "m-nimum proxy",
         "image": "assets/m-nimum.png",
         "url": "https://s-p-e-c-k.github.io/m-nimum/"
+    },
+    {
+        "id": "gn-math-unblocked",
+        "name": "gn-math unblocked",
+        "image": "assets/gn-math.png",
+        "url": "https://s-p-e-c-k.github.io/Gn-Math/"
     }
 ]
