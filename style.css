@@ -33,18 +33,22 @@ header {
     cursor: pointer;
     transition: transform 0.2s, background 0.2s;
     text-align: center;
+    aspect-ratio: 1 / 1; /* makes the whole card square */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* keeps image square */
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .card:hover {
     transform: scale(1.05);
     background: #272727;
-}
-
-.card img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 10px;
 }
 
 .card h2 {
